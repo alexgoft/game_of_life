@@ -1,8 +1,10 @@
 ## Game Of Life
 
-https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life
-
 An efficient implementation of 'Conway's Game of Life' using Numpy
 
+![](https://media.giphy.com/media/9G1xLKXqGZSBb6Yc9z/giphy.gif)
 
-Can choose size of board and probability to create initial matrix.
+https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life
+
+
+
