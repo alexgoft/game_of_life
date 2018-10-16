@@ -20,15 +20,12 @@ def live(dim, prob):
     life = np.random.choice(2, size=(dim, dim), p=[prob, 1-prob])
 
     while True:
-        # print(life, '\n')
-
         plt.imshow(life)
         plt.pause(0.1)
         plt.clf()
 
         neighbors_matrix = ndimage.convolve(life, kernel, mode='constant', cval=0.0)
         life = v_rules(life, neighbors_matrix)
-
 
 if __name__ == '__main__':
     live(30, 0.4)
